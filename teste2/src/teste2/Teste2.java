@@ -45,7 +45,7 @@ public class Teste2 {
 		System.out.println("Informe o nome do arquivo: ");
 		String nomeArquivo = teclado.nextLine();
 		
-		String caminhoArquivo = "C:\\Users\\" + System.getProperty("user.name").toString() + "\\Desktop\\teste\\" + nomeArquivo + ".txt";
+		String caminhoArquivo = "C:\\Users\\" + System.getProperty("user.name").toString() + "\\Desktop\\" + nomeArquivo + ".txt";
 		
 		try {
 			FileWriter objEscritor = new FileWriter(caminhoArquivo, false);
@@ -65,7 +65,7 @@ public class Teste2 {
 		System.out.println("Informe o arquivo que deseja ler: ");
 		String nomeArquivo = teclado.next();
 		
-		String caminhoArquivo = "C:\\Users\\" + System.getProperty("user.name").toString() + "\\Desktop\\teste\\" + nomeArquivo + ".txt";
+		String caminhoArquivo = "C:\\Users\\" + System.getProperty("user.name").toString() + "\\Desktop\\" + nomeArquivo + ".txt";
 		
 		try {
 			FileReader arquivoLer = new FileReader(caminhoArquivo);
